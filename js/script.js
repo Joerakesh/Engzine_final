@@ -1,3 +1,9 @@
+// Function to toggle dropdown visibility
+function toggleDropdown(button) {
+  const dropdown = button.parentElement;
+  dropdown.classList.toggle("active");
+}
+
 let navbar = document.querySelector(".navbar");
 
 document.querySelector("#menu-btn").onclick = () => {

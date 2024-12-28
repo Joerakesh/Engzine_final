@@ -22,7 +22,7 @@
 
 html {
   font-size: 62.4%;
-  overflow: hidden;
+  overflow-x: hidden;
   scroll-padding-top: 9rem;
   scroll-behavior: smooth;
 }
@@ -107,6 +107,13 @@ html::-webkit-scrollbar-thumb {
 /* media query */
 
 @media (max-width: 1369px) {
+  html {
+    font-size: 55%;
+    padding: 1.5rem 2rem;
+  }
+}
+
+@media (max-width: 1369px) {
   #menu-btn {
     display: inline-block;
   }
@@ -119,7 +126,6 @@ html::-webkit-scrollbar-thumb {
     width: 30rem;
     height: calc(100vh -9.5rem);
     display: inline-grid;
-    overflow: hidden;
   }
   .header .navbar.active {
     right: 0;
@@ -1214,6 +1220,17 @@ html::-webkit-scrollbar-thumb {
   object-fit: cover;
 }
 
+.team-email a {
+  font-size: 1.2em;
+  text-transform: none;
+  color: #06bbcc;
+  text-decoration: none;
+}
+
+.team-email a:hover {
+  text-decoration: underline;
+}
+
 /* Information Section */
 .info-section {
   padding: 20px;
@@ -1237,7 +1254,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .committee-name {
-  font-size: 1.8em;
+  font-size: 1.5rem;
   font-weight: bold;
   margin: 10px 0;
   background: linear-gradient(to right, #06bbcc, #34d9dc);
@@ -1246,7 +1263,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .committee-role {
-  font-size: 1.5em;
+  font-size: 1.3rem;
   color: #333333;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -1255,7 +1272,7 @@ html::-webkit-scrollbar-thumb {
 
 /* Team Role */
 .team-role {
-  font-size: 1em;
+  font-size: 1.2em;
   color: #333333;
   text-transform: uppercase;
   letter-spacing: 1px;
