@@ -2547,13 +2547,13 @@ fieldset:disabled .btn {
   opacity: 0.65;
 }
 .btn-primary {
-  color: #000;
+  color: #ffffff;
   background-color: #06bbcc;
   border-color: #06bbcc;
 }
 .btn-primary:hover {
-  color: #000;
-  background-color: rgba(6, 187, 204, 0.808);
+  color: #06bbcc;
+  background-color: rgb(255, 255, 255);
   border-color: #06bbcc;
 }
 .btn-check:focus + .btn-primary,
@@ -6040,7 +6040,7 @@ fieldset:disabled .btn {
   border-left: 0 !important;
 }
 .border-primary {
-  border-color: #06bbcc    !important;
+  border-color: #06bbcc !important;
 }
 .border-secondary {
   border-color: #faf3eb !important;
