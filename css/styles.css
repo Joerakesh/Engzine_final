@@ -2,12 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tangerine:wght@400;700&display=swap");
 
 :root {
-  --main-color: #06bbcc;
+  --main-color: #255a9b;
   --bg: #edf0f5;
   --border: 0.2rem solid rgba(255, 255, 255, 0.3);
-  --primary: #06bbcc;
+  --primary: #255a9b;
 }
-
+/* #06bbcc */
 ::-moz-selection {
   color: #fff;
   background-color: var(--main-color);
@@ -567,7 +567,7 @@ img {
 
 .our-team .social li a:hover {
   color: #1369ce;
-  background-color: #06bbcc;
+  background-color: #255a9b;
 }
 
 /* About Section */
@@ -671,7 +671,7 @@ img {
   font-size: 18px;
   line-height: 28px;
   color: rgb(255, 255, 255);
-  background-color: #06bbcc;
+  background-color: #255a9b;
   border-top-width: 0px;
   border-right-width: 0px;
   border-bottom-width: 0px;
@@ -1262,7 +1262,7 @@ img {
 .team-email a {
   font-size: 1.2em;
   text-transform: none;
-  color: #06bbcc;
+  color: #255a9b;
   text-decoration: none;
 }
 
@@ -1280,7 +1280,7 @@ img {
   font-size: 1.8em;
   font-weight: bold;
   margin: 10px 0;
-  background: linear-gradient(to right, #06bbcc, #34d9dc);
+  background: linear-gradient(to right, #255a9b, #356db2);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1296,7 +1296,7 @@ img {
   font-size: 1.5rem;
   font-weight: bold;
   margin: 10px 0;
-  background: linear-gradient(to right, #06bbcc, #34d9dc);
+  background: linear-gradient(to right, #255a9b, #356db2);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1326,7 +1326,7 @@ img {
   text-align: center;
   padding: 70px 20px;
   color: #ffffff;
-  background: linear-gradient(135deg, #06bbcc, #2e8ea5, #00a9c2, #06bbcc);
+  background: linear-gradient(135deg, #255a9b, #2f5f99, #325b8f, #255a9b);
   background-size: 400% 400%; /* Animate gradient */
   animation: gradient-flow 6s ease infinite;
   border-radius: 15px;
@@ -1453,7 +1453,7 @@ img {
 .about-text h3 {
   font-size: 2.5rem;
   font-weight: 600;
-  color: #06bbcc;
+  color: var(--main-color);
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 10px;
@@ -1567,7 +1567,7 @@ img {
 
 .contact-details h2,
 .form-container h2 {
-  color: #06bbcc;
+  color: var(--main-color);
   font-size: 1.8rem;
   margin-bottom: 20px;
   font-weight: 600;
@@ -1604,13 +1604,13 @@ img {
 
 .form-container input:focus,
 .form-container textarea:focus {
-  border-color: #06bbcc;
+  border-color: var(--main-color);
   transform: scale(1.05);
 }
 
 .form-container button {
   padding: 15px;
-  background-color: #06bbcc;
+  background-color: var(--main-color);
   color: white;
   border: none;
   border-radius: 8px;
@@ -1621,7 +1621,7 @@ img {
 }
 
 .form-container button:hover {
-  background-color: #03a7b3;
+  background-color: var(--main-color);
   transform: scale(1.05);
 }
 
@@ -1641,7 +1641,7 @@ img {
 }
 
 .hero-section {
-  background: linear-gradient(to bottom right, #06bbcc, #3a98b9);
+  background: linear-gradient(to bottom right, #255a9b, #3e76bb);
   color: #fff;
   padding: 50px 20px;
   text-align: center;
@@ -1678,7 +1678,7 @@ img {
 .about-text h2 {
   font-size: 3rem;
   font-weight: 700;
-  color: #06bbcc;
+  color: var(--main-color);
   margin-bottom: 20px;
   font-family: "Fredoka One", cursive;
 }
@@ -1756,7 +1756,7 @@ img {
   width: 80%;
   max-width: 720px;
   height: 360px;
-  border: 3px solid #06bbcc9d;
+  border: 3px solid #255a9b9d;
   border-radius: 10px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
@@ -1773,7 +1773,7 @@ img {
   width: calc(33.33% - 15px); /* 3 videos per row */
   max-width: 300px;
   height: 170px;
-  border: 2px solid #06bbcc6c;
+  border: 2px solid var(--main-color);
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
