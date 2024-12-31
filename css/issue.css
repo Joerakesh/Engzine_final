@@ -46,7 +46,7 @@ header h1 {
 
 .hero-image img {
   max-width: 90%; /* Makes the image responsive */
-  max-height: 550px; /* Fixes the maximum height */
+  max-height: 580px; /* Fixes the maximum height */
   width: auto; /* Keeps the aspect ratio */
   height: auto; /* Keeps the aspect ratio */
   border-radius: 15px; /* Smooth corners */
