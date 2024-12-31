@@ -26,7 +26,7 @@
   outline: none;
   border: none;
   text-decoration: none;
-  text-transform: capitalize;
+  text-transform: ;
   transition: 0.2s linear;
 }
 
@@ -136,7 +136,14 @@ html {
   }
 }
 
-@media (max-width: 1369px) {
+@media (max-width: 1000px) {
+  html {
+    font-size: 55%;
+    padding: 1.5rem 2rem;
+  }
+}
+
+@media (max-width: 1000px) {
   #menu-btn {
     display: inline-block;
   }
@@ -212,7 +219,14 @@ html {
   transition: background-color 0.2s ease, color 0.2s ease;
 }
 /* Hamburger menu styles for smaller screens */
-@media (max-width: 1369px) {
+
+@media (max-width: 1222px) {
+  html {
+    font-size: 50%;
+    padding: 1.5rem 2rem;
+  }
+}
+@media (max-width: 1000px) {
   #menu-btn {
     display: inline-block;
   }
