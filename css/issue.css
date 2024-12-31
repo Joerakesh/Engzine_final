@@ -45,8 +45,8 @@ header h1 {
 }
 
 .hero-image img {
-  max-width: 100%; /* Makes the image responsive */
-  max-height: 280px; /* Fixes the maximum height */
+  max-width: 90%; /* Makes the image responsive */
+  max-height: 550px; /* Fixes the maximum height */
   width: auto; /* Keeps the aspect ratio */
   height: auto; /* Keeps the aspect ratio */
   border-radius: 15px; /* Smooth corners */
@@ -86,6 +86,23 @@ header h1 {
 }
 
 .hero-content a.button:hover {
+  background: #04a2b2;
+  transform: translateY(-5px);
+}
+
+.hero-content .button {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 1.1rem;
+  color: #fff;
+  background: #06bbcc;
+  border-radius: 50px;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s ease;
+  box-shadow: 0px 5px 15px rgba(6, 187, 204, 0.4);
+}
+
+.hero-content .button:hover {
   background: #04a2b2;
   transform: translateY(-5px);
 }
