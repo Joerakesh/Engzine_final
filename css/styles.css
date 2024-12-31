@@ -49,6 +49,10 @@ html {
   background: linear-gradient(transparent, var(--main-color));
 }
 
+img {
+  pointer-events: none;
+}
+
 .header {
   background: #fff;
   display: flex;
@@ -303,13 +307,13 @@ html {
 /* Hero Section */
 
 .hero-header {
-  background: url(/img/4.png);
+  background: url(/img/6.png);
   background-size: cover;
   height: 90vh;
   width: 100%;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 555px) {
   .hero-header {
     background-image: url(/img/hero.jpg);
     background-size: cover;
