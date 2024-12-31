@@ -33,7 +33,7 @@
   text-align: center;
   font-family: "Merriweather", serif;
   font-size: 3em;
-  color: white;
+  color: black;
   margin-bottom: 40px;
   font-weight: 700;
   text-transform: uppercase;
@@ -95,7 +95,7 @@
 .contact-info h3 {
   font-size: 2.2em;
   margin-bottom: 20px;
-  color: #fff; /* White text for better visibility */
+  color: #000; /* White text for better visibility */
   font-weight: 700;
   font-family: "Lora", serif;
   display: flex;
@@ -105,7 +105,7 @@
 .map-container h3 {
   font-size: 2.2em;
   margin-bottom: 5px;
-  color: #fff; /* White text for better visibility */
+  color: #000; /* White text for better visibility */
   font-weight: 700;
   font-family: "Lora", serif;
   display: flex;
@@ -117,11 +117,11 @@
   margin: 8px 0;
   font-weight: 400;
   line-height: 1.6;
-  color: #fff; /* Ensures text is visible over the blurred background */
+  color: #000; /* Ensures text is visible over the blurred background */
 }
 
 .contact-info a {
-  color: #fff; /* Primary color for links */
+  color: #000; /* Primary color for links */
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s ease;
@@ -134,7 +134,7 @@
 /* Smaller Icons with Enhanced Visibility */
 .contact-info i {
   font-size: 1.5em;
-  color: #f2f2f2; /* Light gray to contrast with the background */
+  color: #000; /* Light gray to contrast with the background */
   margin-right: 10px;
   transition: color 0.3s ease;
 }
@@ -178,7 +178,7 @@
   margin: 0;
   font-weight: 400;
   line-height: 1.6;
-  color: #fff; /* Ensures text is visible over the blurred background */
+  color: #000; /* Ensures text is visible over the blurred background */
 }
 
 .contact-address p:first-child {
@@ -189,5 +189,5 @@
 
 .contact-address i {
   font-size: 1.5em;
-  color: #f2f2f2; /* Light gray to contrast with the background */
+  color: #000; /* Light gray to contrast with the background */
 }
