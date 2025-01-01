@@ -25,40 +25,75 @@
       rel="stylesheet"
     />
     <style>
-      .background {
-        background: linear-gradient(to right, #06bbcc, #004e5c);
-        animation: gradientShift 10s ease-in-out infinite;
-      }
-      .form-container {
-        margin-left: 250px;
-        width: 100%;
-        max-width: 1000px; /* Allow maximum width */
-        height: auto; /* Ensure full height of the viewport */
+      .feedback-section {
         display: flex;
-        justify-content: center;
+        flex-wrap: wrap;
         align-items: center;
-        background-color: transparent;
-        backdrop-filter: blur(11px);
-        border-radius: 10px;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        padding: 10px;
+        justify-content: center;
+        max-width: 1200px;
+        margin: 50px auto;
+        background: #fff;
+        border-radius: 12px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
         overflow: hidden;
       }
-
-      @media (max-width: 1369px) {
-        .form-container {
-          margin-left: 0;
-        }
+      .feedback-left {
+        flex: 1;
+        padding: 40px;
+        background: linear-gradient(135deg, #06bbcc, #005f66);
+        color: #fff;
       }
-      @keyframes gradientShift {
-        0% {
-          background: linear-gradient(to right, #06bbcc, #004e5c);
+      .feedback-left h2 {
+        font-family: sans-serif;
+        font-size: 25px;
+        margin-bottom: 20px;
+        color: #fff;
+      }
+      .feedback-left p {
+        font-size: 20px;
+        line-height: 1.6;
+        margin-bottom: 30px;
+        color: beige;
+      }
+      .feedback-right {
+        flex: 1;
+        position: relative;
+        height: 300px;
+        background-image: url("/img/5.jpg"); /* Replace with your image URL */
+        background-size: cover;
+        background-position: center;
+      }
+      .overlay-button {
+        position: absolute;
+        bottom: 70px;
+        left: 52%;
+        transform: translateX(-50%);
+        padding: 12px 20px;
+        background-color: rgba(6, 187, 204, 0.9);
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        font-size: 1rem;
+        font-weight: bold;
+        cursor: pointer;
+        text-decoration: none;
+        transition: all 0.3s;
+      }
+      .overlay-button:hover {
+        background-color: rgba(0, 95, 102, 0.9);
+        transform: translateX(-50%) scale(1.05);
+      }
+      @media screen and (max-width: 768px) {
+        .feedback-section {
+          flex-direction: column;
         }
-        50% {
-          background: linear-gradient(to right, #004e5c, #06bbcc);
+        .feedback-left,
+        .feedback-right {
+          padding: 20px;
+          flex: unset;
         }
-        100% {
-          background: linear-gradient(to right, #06bbcc, #004e5c);
+        .feedback-right {
+          height: 200px;
         }
       }
     </style>
@@ -137,112 +172,29 @@
     </div>
     <!-- Header Section Ends -->
     <!-- Content -->
-    <div class="background">
-      <div class="form-container">
-        <iframe
-          src="https://docs.google.com/forms/d/e/1FAIpQLSeZTnQIpaIz_8QYENLcLTg6GXZFsaz1vKh7JUhaG4vzB55VuQ/viewform?embedded=true"
-          width="640"
-          height="3805"
-          frameborder="0"
-          marginheight="0"
-          marginwidth="0"
-          >Loading…</iframe
-        >
+    <section class="feedback-section">
+      <div class="feedback-left">
+        <h2>We Value Your Feedback</h2>
+        <p>
+          Help us improve! Share your thoughts, suggestions, or experiences with
+          us. Your feedback is invaluable in making our magazine better for
+          everyone.
+        </p>
       </div>
-    </div>
+      <div class="feedback-right">
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSeZTnQIpaIz_8QYENLcLTg6GXZFsaz1vKh7JUhaG4vzB55VuQ/viewform?usp=sf_link"
+          target="_blank"
+          class="overlay-button"
+        >
+          Give Feedback
+        </a>
+      </div>
+    </section>
     <!-- Content -->
     <!-- Footer Start -->
-    <footer class="footer-48201">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 pr-md-5">
-            <a href="#" class="footer-site-logo d-block mb-4"
-              >Publisher Information</a
-            >
-            <hr />
-            <h3 style="color: white">Publishing Body</h3>
-            <p>
-              PG & Research Department of English,<br />
-              St. Joseph’s College
-            </p>
-
-            <h3 style="color: white">Address</h3>
-            <p>
-              St. Joseph’s College (Autonomous),<br />
-              tiruchirappalli - 620002. <br />
-              tamil nadu, india.
-            </p>
-
-            <h3 style="color: white">Editor in chief</h3>
-            <p>Prasanth Arokia sawy. D</p>
-            <h3 style="color: white">Contact Us</h3>
-            <p style="text-transform: lowercase">
-              +91 9994494858 <br />
-              sjcengzine@mail.sjctni.edu
-            </p>
-
-            <hr />
-          </div>
-          <div class="col-md">
-            <ul class="list-unstyled nav-links">
-              <a href="#" class="footer-site-logo d-block mb-4">Quick Links</a>
-              <hr />
-              <li><a href="/index.html">Home</a></li>
-              <li><a href="/components/about/engzine.html">About Us</a></li>
-              <li><a href="/components/contact.html">Contact</a></li>
-              <li><a href="/components/feedback.html">feedback</a></li>
-              <li><a href="/components/submissions.html">Submissions</a></li>
-            </ul>
-            <hr />
-          </div>
-          <div class="col-md">
-            <ul class="list-unstyled nav-links">
-              <a href="#" class="footer-site-logo d-block mb-4"
-                >Podcasts & Magazines</a
-              >
-              <hr />
-              <li><a href="/components/podcast.html">podcast</a></li>
-              <li><a href="/components/issues.html">current issue</a></li>
-              <li><a href="#">archieve</a></li>
-              <li><a href="/components/about/team.html">team</a></li>
-            </ul>
-            <hr />
-          </div>
-          <div class="col-md">
-            <ul class="list-unstyled nav-links">
-              <a href="#" class="footer-site-logo d-block mb-4"
-                >Click / Scan QR to Subscribe</a
-              >
-              <hr />
-              <li>
-                <a href="https://forms.office.com/r/PyE2N6jh03"
-                  ><img
-                    src="/img/qr.png"
-                    alt=""
-                    style="width: 120px; height: auto"
-                /></a>
-              </li>
-            </ul>
-
-            <hr />
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-12 text-center">
-            <div class="copyright mt-5 pt-5">
-              <p>
-                <a href="https://sjctni.edu/">
-                  <small style="text-transform: lowercase; color: white"
-                    >&copy; www.sjctni.edu, All Rights Reserved.</small
-                  >
-                </a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
+    <special-footer></special-footer>
+    <script src="/js/footer.js"></script>
     <!-- Footer End -->
     <!-- JS link -->
     <script src="/js/script.js"></script>

@@ -20,11 +20,11 @@
   font-weight: 700;
 }
 
-main {
+main p {
   font-family: "Cormorant Garamond", serif;
 }
 
-p {
+main p {
   text-indent: 40px;
   font-family: "Cormorant Garamond", serif;
   font-size: 16px;
