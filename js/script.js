@@ -37,3 +37,5 @@ document.addEventListener("keydown", (e) => {
     alert("Inspect Element is disabled on this site.");
   }
 });
+
+console.log("Website developed by Joe Rakesh");
