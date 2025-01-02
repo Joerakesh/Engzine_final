@@ -79,7 +79,7 @@ class SpecialFooter extends HTMLElement {
             <hr />
             <ul class="list-unstyled nav-links">
               <a href="#" class="footer-site-logo d-block mb-4"
-                >Website designed and developed by</a
+                >Website developers</a
               >
               <li>
                 <a href="#">Ashore Nikshan J </a
