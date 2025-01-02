@@ -49,12 +49,13 @@ class SpecialFooter extends HTMLElement {
                 >Website designed and developed by</a
               >
               <li>
-                <a href="#" target="_blank">Ashore Nikshan J </a
-                ><a href="" target="_blank"
+                <a href="#">Ashore Nikshan J </a
+                >
+                <!-- <a href="" target="_blank"
                   ><i class="fa-brands fa-linkedin" style="font-size: 15px"></i
-                ></a>
+                ></a> -->
                 <a
-                  href="#"
+                  href="mailto:ashorenikshan429@gmail.com"
                   target="_blank"
                   ><i class="fa-regular fa-envelope" style="font-size: 15px; margin: 5px"></i
                 ></a>
