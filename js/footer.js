@@ -44,6 +44,39 @@ class SpecialFooter extends HTMLElement {
               <li><a href="/components/submissions.html">Submissions</a></li>
             </ul>
             <hr />
+            
+            </ul>
+          </div>
+          <div class="col-md">
+            <ul class="list-unstyled nav-links">
+              <a href="#" class="footer-site-logo d-block mb-4"
+                >Podcasts & Magazines</a
+              >
+              <hr />
+              <li><a href="/components/podcast.html">podcast</a></li>
+              <li><a href="/components/issues.html">current issue</a></li>
+              <li><a href="#">archieve</a></li>
+              <li><a href="/components/about/team.html">team</a></li>
+            </ul>
+            <hr />
+          </div>
+          <div class="col-md">
+            <ul class="list-unstyled nav-links">
+              <a href="#" class="footer-site-logo d-block mb-4"
+                >Click / Scan QR to Subscribe</a
+              >
+              <hr />
+              <li>
+                <a href="https://forms.gle/oRKYj7E2SX3T8iCZ6" target="_blank"
+                  ><img
+                    src="/img/qr_submission.png"
+                    alt=""
+                    style="width: 120px; height: auto"
+                /></a>
+              </li>
+            </ul>
+
+            <hr />
             <ul class="list-unstyled nav-links">
               <a href="#" class="footer-site-logo d-block mb-4"
                 >Website designed and developed by</a
@@ -77,38 +110,6 @@ class SpecialFooter extends HTMLElement {
                 ></a>
               </li>
               <hr />
-            </ul>
-          </div>
-          <div class="col-md">
-            <ul class="list-unstyled nav-links">
-              <a href="#" class="footer-site-logo d-block mb-4"
-                >Podcasts & Magazines</a
-              >
-              <hr />
-              <li><a href="/components/podcast.html">podcast</a></li>
-              <li><a href="/components/issues.html">current issue</a></li>
-              <li><a href="#">archieve</a></li>
-              <li><a href="/components/about/team.html">team</a></li>
-            </ul>
-            <hr />
-          </div>
-          <div class="col-md">
-            <ul class="list-unstyled nav-links">
-              <a href="#" class="footer-site-logo d-block mb-4"
-                >Click / Scan QR to Subscribe</a
-              >
-              <hr />
-              <li>
-                <a href="https://forms.gle/oRKYj7E2SX3T8iCZ6" target="_blank"
-                  ><img
-                    src="/img/qr_submission.png"
-                    alt=""
-                    style="width: 120px; height: auto"
-                /></a>
-              </li>
-            </ul>
-
-            <hr />
           </div>
         </div>
 
