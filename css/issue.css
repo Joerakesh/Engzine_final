@@ -68,9 +68,11 @@ header h1 {
 }
 
 .hero-content p {
-  font-size: 2rem;
+  font-size: 1.6rem;
   margin-bottom: 20px;
   color: #666;
+  text-align: justify;
+  text-indent: 40px;
 }
 
 .hero-content a.button {
@@ -91,6 +93,7 @@ header h1 {
 }
 
 .hero-content .button {
+  margin: 10px;
   display: inline-block;
   padding: 15px 30px;
   font-size: 1.1rem;

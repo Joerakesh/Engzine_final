@@ -422,6 +422,15 @@ a {
   text-decoration: none;
 }
 
+#engzine {
+  font-size: 70px;
+}
+
+@media (max-width: 555px) {
+  #engzine {
+    font-size: 40px;
+  }
+}
 /* Footer */
 .footer-48201 {
   padding: 7rem 0;
@@ -1444,12 +1453,14 @@ a {
 
 .about-image img {
   width: 100%;
-  max-width: 400px;
+  max-width: 600px;
   border-radius: 10px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   object-fit: cover;
 }
-
+#college {
+  height: auto;
+}
 .about-text {
   flex: 1 1 60%;
 }
@@ -1479,6 +1490,8 @@ a {
   color: #555555;
   margin-bottom: 15px;
   font-family: "Raleway", sans-serif;
+  text-indent: 40px;
+  text-align: justify;
 }
 
 /* Responsive Design */
