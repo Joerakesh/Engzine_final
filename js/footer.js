@@ -79,7 +79,7 @@ class SpecialFooter extends HTMLElement {
             <hr />
             <ul class="list-unstyled nav-links">
               
-              <h3 style="color: white">Website developers</h3>
+              <h3 style="color: white">Website Developers</h3>
               <li style = "margin-bottom: 0">
                 <a href="#" style= "font-size: 15px">Ashore Nikshan J </a
                 >
