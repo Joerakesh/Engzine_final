@@ -53,6 +53,11 @@ class SpecialFooter extends HTMLElement {
                 ><a href="" target="_blank"
                   ><i class="fa-brands fa-linkedin" style="font-size: 15px"></i
                 ></a>
+                <a
+                  href="#"
+                  target="_blank"
+                  ><i class="fa-regular fa-envelope" style="font-size: 15px; margin: 5px"></i
+                ></a>
               </li>
               <li>
                 <a
@@ -62,7 +67,12 @@ class SpecialFooter extends HTMLElement {
                 ><a
                   href="https://www.linkedin.com/in/joe-rakesh-27b082286/"
                   target="_blank"
-                  ><i class="fa-brands fa-linkedin" style="font-size: 15px"></i
+                  ><i class="fa-brands fa-linkedin" style="font-size: 15px; "></i
+                ></a>
+                <a
+                  href="mailto:rakeshjoe52@gmail.com"
+                  target="_blank"
+                  ><i class="fa-regular fa-envelope" style="font-size: 15px; margin: 5px"></i
                 ></a>
               </li>
             </ul>
