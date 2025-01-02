@@ -34,7 +34,7 @@ class SpecialFooter extends HTMLElement {
             <hr />
           </div>
           <div class="col-md">
-            <ul class="list-unstyled nav-links">
+            <ul class="list-unstyled nav-links" >
               <a href="#" class="footer-site-logo d-block mb-4">Quick Links</a>
               <hr />
               <li><a href="/index.html">Home</a></li>
@@ -78,11 +78,10 @@ class SpecialFooter extends HTMLElement {
 
             <hr />
             <ul class="list-unstyled nav-links">
-              <a href="#" class="footer-site-logo d-block mb-4"
-                >Website developers</a
-              >
-              <li>
-                <a href="#">Ashore Nikshan J </a
+              
+              <h3 style="color: white">Website developers</h3>
+              <li style = "margin-bottom: 0">
+                <a href="#" style= "font-size: 15px">Ashore Nikshan J </a
                 >
                 <!-- <a href="" target="_blank"
                   ><i class="fa-brands fa-linkedin" style="font-size: 15px"></i
@@ -93,10 +92,10 @@ class SpecialFooter extends HTMLElement {
                   ><i class="fa-regular fa-envelope" style="font-size: 15px; margin: 5px"></i
                 ></a>
               </li>
-              <li>
+              <li >
                 <a
                   href="https://joerakesh-portfolio.netlify.app/"
-                  target="_blank"
+                  target="_blank" style= "font-size: 15px"
                   >Joe Rakesh A </a
                 ><a
                   href="https://www.linkedin.com/in/joe-rakesh-27b082286/"
