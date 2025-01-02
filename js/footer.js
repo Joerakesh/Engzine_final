@@ -76,6 +76,7 @@ class SpecialFooter extends HTMLElement {
                   ><i class="fa-regular fa-envelope" style="font-size: 15px; margin: 5px"></i
                 ></a>
               </li>
+              <hr />
             </ul>
           </div>
           <div class="col-md">
