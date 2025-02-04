@@ -12,6 +12,9 @@ class SpecialFooter extends HTMLElement {
             <h3 style="color: white">Publishing Body</h3>
             <p>PG & Research Department of English</p>
 
+            <h3 style="color: white">ISSN</h3>
+            <p>3049-1363</p>
+
             <h3 style="color: white">Address</h3>
             <p>
               PG & Research Department of English,<br />
