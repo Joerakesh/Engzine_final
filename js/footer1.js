@@ -34,15 +34,15 @@ class SpecialFooter extends HTMLElement {
             <ul class="list-unstyled nav-links" >
               <a href="#" class="footer-site-logo d-block mb-4">Quick Links</a>
               <hr />
-              <li><a href="../../index.html">Home</a></li>
-              <li><a href="../../components/about/engzine.html">About Us</a></li>
-              <li><a href="../../components/contact.html">Contact</a></li>
-              <li><a href="../../components/feedback.html">feedback</a></li>
-              <li><a href="../../components/submissions.html">Submissions</a></li>
+              <li><a href="/index.html">Home</a></li>
+              <li><a href="../components/about/engzine.html">About Us</a></li>
+              <li><a href="../components/contact.html">Contact</a></li>
+              <li><a href="../components/feedback.html">feedback</a></li>
+              <li><a href="../components/submissions.html">Submissions</a></li>
             </ul>
             <hr />
             
-           
+            </ul>
           </div>
           <div class="col-md">
             <ul class="list-unstyled nav-links">
@@ -50,10 +50,10 @@ class SpecialFooter extends HTMLElement {
                 >Podcasts & Magazines</a
               >
               <hr />
-              <li><a href="../../components/podcast.html">podcast</a></li>
-              <li><a href="../../components/current_issue.html">current issue</a></li>
-              <li><a href="../../components/archieves.html">archieve</a></li>
-              <li><a href="../../components/about/team.html">team</a></li>
+              <li><a href="../components/podcast.html">podcast</a></li>
+              <li><a href="../components/current_issue.html">current issue</a></li>
+              <li><a href="../components/archieves.html">archieve</a></li>
+              <li><a href="../components/about/team.html">team</a></li>
             </ul>
             <hr />
           </div>
@@ -63,11 +63,11 @@ class SpecialFooter extends HTMLElement {
                 >Click / Scan QR to Subscribe</a
               >
               <hr />
-               <a href="https://forms.gle/oRKYj7E2SX3T8iCZ6" target="_blank"
+              <a href="https://forms.gle/oRKYj7E2SX3T8iCZ6" target="_blank"
                   >
               <li>
                 <img
-                    src="../../img/qr_submission.png"
+                    src="../img/qr_submission.png"
                     alt=""
                     style="width: 120px; height: auto"
                 />

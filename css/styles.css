@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tangerine:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&family=Poppins:wght@400;700&display=swap");
 
 :root {
   --main-color: #06bbcc;
@@ -311,7 +312,7 @@ a {
 /* Hero Section */
 
 .hero-header {
-  background: url(/img/6.png);
+  background: url(../img/6.png);
   background-size: cover;
   height: 90vh;
   width: 100%;
@@ -319,7 +320,7 @@ a {
 
 @media (max-width: 555px) {
   .hero-header {
-    background-image: url(/img/hero.jpg);
+    background-image: url(../img/hero.png);
     background-size: cover;
     background-position: center center;
     height: 90vh;
@@ -390,36 +391,6 @@ a {
     transform: translateX(-50%) translateY(-50%) translateZ(0) scale(2);
     opacity: 0;
   }
-}
-
-#videoModal .modal-dialog {
-  position: relative;
-  max-width: 800px;
-  margin: 60px auto 0 auto;
-}
-
-#videoModal .modal-body {
-  position: relative;
-  padding: 0px;
-}
-
-#videoModal .close {
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  right: 0px;
-  top: -30px;
-  z-index: 999;
-  font-size: 30px;
-  font-weight: normal;
-  color: #ffffff;
-  background: #000000;
-  opacity: 1;
-}
-
-.btn-color-join {
-  color: black;
-  text-decoration: none;
 }
 
 #engzine {
@@ -1330,8 +1301,6 @@ a {
   letter-spacing: 1px;
   font-weight: 600;
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&family=Poppins:wght@400;700&display=swap");
 
 /* Updated Header Styling */
 .team-header {
