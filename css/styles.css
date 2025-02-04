@@ -103,6 +103,16 @@ img {
   font-size: 2rem;
   margin-left: 2rem;
 }
+.css1 {
+  background-color: var(--main-color);
+  font-size: 40px;
+  font-family: "Fredoka One", serif;
+  font-style: italic;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px 8px #4a4a4a;
+}
+
 #footer p,
 a {
   text-transform: capitalize;
