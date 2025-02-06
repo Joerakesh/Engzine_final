@@ -1,12 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tangerine:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
 
 :root {
   --main-color: #06bbcc;
   --bg: #edf0f5;
   --border: 0.2rem solid rgba(255, 255, 255, 0.3);
   --primary: #06bbcc;
+  --glow-color: hsl(47.14deg 97.67% 83.14%);
 }
 
 ::-moz-selection {
@@ -336,7 +338,29 @@ a {
   width: 100%;
 }
 
-@media (max-width: 555px) {
+#announcement-btn {
+  margin-left: 90%;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: "Poppins";
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: hsl(47.14deg 97.67% 83.14%);
+}
+@media (max-width: 600px) {
+  #announcement-btn {
+    margin-left: 70%;
+  }
+}
+
+#issn {
+  color: rgb(0, 0, 0);
+  text-align: end;
+  margin-top: 40px;
+  margin-right: 10px;
+}
+
+@media (max-width: 600px) {
   .hero-header {
     background-image: url(../img/hero.png);
     background-size: cover;
@@ -344,6 +368,17 @@ a {
     height: 90vh;
   }
 }
+.btn-info.glow-button {
+  --box-shadow-color: hsl(47.14deg 97.67% 83.14%);
+}
+.btn-lg {
+  margin: 1em;
+}
+.glow-button {
+  --box-shadow-color: black;
+  box-shadow: 0 0 30px var(--main-color);
+}
+
 .btn-play {
   position: relative;
   display: block;
