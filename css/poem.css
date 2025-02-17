@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@400;500&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+.poem-container {
+  width: 90%;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: linear-gradient(to bottom right, #ffffff, #f9f9f9);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.poem-container h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.poem-container .author {
+  font-size: 16px;
+  font-style: italic;
+  text-align: end;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.poem-container .poem {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+/* Mobile Responsiveness */
+@media only screen and (max-width: 768px) {
+  .poem-container {
+    padding: 15px;
+    width: 95%;
+    max-width: 100%;
+  }
+
+  .poem-container h2 {
+    font-size: 28px;
+  }
+
+  .poem-container .author {
+    font-size: 14px;
+  }
+
+  .poem-container .poem {
+    font-size: 16px;
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .poem-container {
+    padding: 10px;
+  }
+
+  .poem-container h2 {
+    font-size: 20px;
+  }
+
+  .poem-container .author {
+    font-size: 12px;
+  }
+
+  .poem-container .poem {
+    font-size: 12px;
+    letter-spacing: -0.1px;
+  }
+}
+
+@media (max-width: 368px) {
+  .poem-container {
+    font-size: 12px;
+  }
+}

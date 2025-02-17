@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Joe Rakesh" />
+    <!-- Favicon -->
+    <link href="../img/favicon.ico" rel="icon" />
+    <title>SUBMIT | ENGZINE</title>
+    <!-- CSS Linking -->
+    <link rel="stylesheet" href="../css/guidelines.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Oswald:wght@500;600;700&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .submission-section {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        max-width: 1200px;
+        margin: 50px auto;
+        background: #fff;
+        border-radius: 12px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        font-size: 18px;
+      }
+      .left-column {
+        flex: 1;
+        padding: 40px;
+        background: linear-gradient(135deg, #06bbcc, #005f66);
+        color: #fff;
+      }
+      .left-column h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        font-size: 25px;
+        color: #fff;
+      }
+      .left-column p {
+        font-size: 20px;
+        line-height: 1.6;
+        margin-bottom: 30px;
+        color: #e0e6e6;
+      }
+      .left-column .cta-button {
+        display: inline-block;
+        padding: 12px 20px;
+        background-color: #fff;
+        color: #06bbcc;
+        border-radius: 6px;
+        font-weight: bold;
+        text-decoration: none;
+        transition: all 0.3s;
+      }
+      .left-column .cta-button:hover {
+        background-color: #005f66;
+        color: #fff;
+      }
+      .right-column {
+        flex: 1;
+        position: relative;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .right-column .overlay-button {
+        position: relative;
+        /* top: 50%;
+        left: 50%; */
+        transform: translate(-50%, -50%);
+        padding: 14px 30px;
+        background: rgba(6, 187, 204, 0.9);
+        color: #fff;
+        font-size: 2rem;
+        font-weight: bold;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        transition: background 0.3s, transform 0.3s;
+      }
+      .right-column .overlay-button:hover {
+        background: rgba(0, 95, 102, 0.9);
+        transform: translate(-50%, -50%) scale(1.05);
+      }
+      @media screen and (max-width: 768px) {
+        .submission-section {
+          flex-direction: column;
+        }
+        .left-column,
+        .right-column {
+          padding: 20px;
+          flex: unset;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header Section Starts -->
+
+    <script src="../js/header1.js"></script>
+    <special-header></special-header>
+
+    <div style="margin: 5vh">
+      <h1 style="color: white">.</h1>
+    </div>
+    <!-- Header Section Ends -->
+    <!-- Content -->
+    <section class="submission-section">
+      <div class="left-column">
+        <h2>Submit Your Creativity</h2>
+        <p>
+          Share your stories, poems, and essays with us! Your submission could
+          be featured in our upcoming edition. Follow the guidelines and click
+          the button to submit.
+        </p>
+        <a href="../components/guidelines.html" class="cta-button"
+          >Submission Guidelines</a
+        >
+      </div>
+      <div class="right-column">
+        <button
+          class="overlay-button"
+          onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSdsPXk_SfvaqJvSP7SHMLMdfWq2JjolTMEkecjIwCveVD5A0A/viewform?usp=sf_link'"
+        >
+          Click to Submit
+        </button>
+      </div>
+    </section>
+    <!-- Content -->
+    <!-- Footer Start -->
+    <special-footer></special-footer>
+    <script src="../js/footer1.js"></script>
+    <!-- Footer End -->
+    <!-- JS link -->
+    <script src="../js/script.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
