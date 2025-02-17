@@ -57,6 +57,7 @@ img {
     pointer-events: none;
 }
 /* Popup Styling */
+
 #emailPopup {
     display: none;
     position: fixed;
@@ -69,10 +70,14 @@ img {
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     text-align: center;
-    font-family: 'Poppins', sans-serif;
-    z-index: 1000;
+    z-index: 1000; /* Above the overlay */
 }
 
+#emailPopup h3,
+p,
+button {
+    font-family: 'Poppins', sans-serif;
+}
 input[type='email'] {
     width: 90%;
     padding: 10px;
@@ -93,7 +98,7 @@ button {
 }
 
 button:hover {
-    background: #06bbbb;
+    background: #07bbbb;
 }
 
 .header {
