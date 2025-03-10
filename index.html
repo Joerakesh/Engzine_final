@@ -27,12 +27,11 @@
   </head>
   <body>
     <div id="emailPopup">
-    <h3>Subscribe to Our Magazine</h3>
-    <p>Enter your email to stay updated!</p>
-    <input type="email" id="userEmail" placeholder="Enter your email">
-    <button onclick="saveEmail()">Subscribe</button>
-</div>
-
+      <h3>Subscribe to Our Magazine</h3>
+      <p>Enter your email to stay updated!</p>
+      <input type="email" id="userEmail" placeholder="Enter your email" />
+      <button onclick="saveEmail()">Subscribe</button>
+    </div>
 
     <!-- Header Section Starts -->
     <header class="header">
@@ -101,7 +100,6 @@
         <!-- Hamburger Menu Icon -->
         <div class="fas fa-bars" id="menu-btn"></div>
       </div>
-
     </header>
     <!-- PLace Holder Behind Navbar -->
     <div style="margin: 4.7vh">
@@ -112,7 +110,7 @@
     <!-- Hero Section Start -->
 
     <div class="container-fluid bg-primary py-5 mb-5 hero-header">
-      <a
+      <!-- <a
         href="http://erp.sjctni.edu/News/images/SatFeb01120245IST2025-EN_01022025.pdf"
         target="_blank"
         ><button
@@ -122,7 +120,7 @@
         >
           Call for Submissions
         </button></a
-      >
+      > -->
       <div class="container py-0">
         <div class="row justify-content-start">
           <div class="col-lg-8 text-center text-lg-start">
@@ -537,31 +535,32 @@
   <script>
     // Show popup only if email is not stored
     window.onload = function () {
-        if (!localStorage.getItem("userEmail")) {
-            document.getElementById("emailPopup").style.display = "block";
-        }
+      if (!localStorage.getItem("userEmail")) {
+        document.getElementById("emailPopup").style.display = "block";
+      }
     };
 
     function saveEmail() {
-    let email = document.getElementById("userEmail").value;
-    let scriptURL = "https://script.google.com/macros/s/AKfycbzweF4DvtzsG6Dt1iYdqtfNKeHNLEOdQQD1o1KfpC0UsFwSFLCDMIDFGsTD2uCfGZ3IcA/exec"; // Replace with actual URL
+      let email = document.getElementById("userEmail").value;
+      let scriptURL =
+        "https://script.google.com/macros/s/AKfycbzweF4DvtzsG6Dt1iYdqtfNKeHNLEOdQQD1o1KfpC0UsFwSFLCDMIDFGsTD2uCfGZ3IcA/exec"; // Replace with actual URL
 
-    if (email) {
+      if (email) {
         fetch(scriptURL, {
-            method: "POST",
-            mode: "no-cors",  // <=== Fix CORS issue
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ email: email })
+          method: "POST",
+          mode: "no-cors", // <=== Fix CORS issue
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ email: email }),
         })
-        .then(() => {
+          .then(() => {
             alert("Thank you!");
             localStorage.setItem("userEmail", email);
             document.getElementById("emailPopup").style.display = "none";
-        })
-        .catch(error => console.error("Error:", error));
-    } else {
+          })
+          .catch((error) => console.error("Error:", error));
+      } else {
         alert("Please enter a valid email!");
+      }
     }
-}
-</script>
+  </script>
 </html>
