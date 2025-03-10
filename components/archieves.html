@@ -23,6 +23,54 @@
       rel="stylesheet"
     />
   </head>
+  <style>
+    .card {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 100%;
+      max-width: 100vw;
+      background: #fff;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .card img {
+      width: 150px;
+      height: auto;
+      object-fit: cover;
+      border-right: 4px solid #ddd;
+    }
+
+    .card-content {
+      padding: 20px;
+    }
+
+    .card-content h3 {
+      margin: 0;
+      font-size: 24px;
+      color: #333;
+    }
+
+    .card-content h3 a {
+      text-decoration: none;
+      color: #007bff;
+      transition: color 0.3s;
+    }
+
+    .card-content h3 a:hover {
+      color: #0056b3;
+      text-decoration: underline;
+    }
+
+    .card-content p {
+      margin-top: 8px;
+      font-size: 16px;
+      color: #555;
+    }
+  </style>
   <body>
     <!-- Header Section Starts -->
 
@@ -33,8 +81,19 @@
       <h1 style="color: white">.</h1>
     </div>
     <!-- Header Section Ends -->
-     <h1 id="issn">ISSN: 3049-1363</h1>
-    <h2 style="text-align: center; font-size: 50px">NOT AVAILABLE</h2>
+    <h1 id="issn">ISSN: 3049-1363</h1>
+    <div class="card">
+      <img src="../img/iss.jpg" alt="Profile" />
+      <div class="card-content">
+        <h3>
+          <a href="../components/issue_1/issue_1.html" target="_blank"
+            >Campus Life</a
+          >
+        </h3>
+        <p>Volume 01 | Issue 01</p>
+      </div>
+    </div>
+
     <!-- Footer Start -->
     <special-footer></special-footer>
     <script src="../js/footer1.js"></script>
